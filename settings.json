@@ -1,0 +1,70 @@
+{
+    // Basics
+    "git.ignoreMissingGitWarning": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "cmake.autoRestartBuild": true,
+    "cmake.configureOnOpen": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.list.openMode": "doubleClick",
+    
+    // Text editing
+    //"editor.fontFamily": "Fantasque Sans Mono",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "block",
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": false,
+    "editor.trimAutoWhitespace": false,
+    "editor.autoIndent": "full",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false,
+    "editor.rulers": [100, 120],
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.smoothScrolling": true,
+    "editor.links": false,
+    "editor.matchBrackets": "near",
+    "editor.mouseWheelZoom": false,
+    "editor.occurrencesHighlight": false,
+    "editor.selectionHighlight": true,
+    "editor.roundedSelection": true,
+    "editor.renderLineHighlight": "line",
+    "editor.wordWrap": "off",
+    "editor.folding": false,
+    "editor.glyphMargin": true,
+    "scm.diffDecorations": "none",
+    // "files.exclude": {
+    //     "**/.git": true,
+    //     "**/.svn": true,
+    //     "**/.hg": true,
+    //     "**/CVS": true,
+    //     "**/.DS_Store": true,
+    //     "**/.vs": true // Hide ".vs" folder
+    // },
+    
+    // C/C++
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.intelliSenseMode": "msvc-x64",
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.errorSquiggles": "Enabled",
+
+    // Project management
+    "projectManager.vscode.baseFolders": [
+        "E:/Projects",
+        "E:/Projekte"
+    ],
+    "projectManager.git.baseFolders": [
+        "E:/Dieser PC/Dokumente/GitHub"
+    ],
+    
+    ////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////
+    "window.zoomLevel": 1,
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.colorTheme": "Nord",
+}
