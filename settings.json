@@ -1,7 +1,6 @@
 {
     // Core settings
     "git.ignoreMissingGitWarning": true,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "workbench.list.openMode": "doubleClick",
     "window.zoomLevel": 1,
 
@@ -14,6 +13,7 @@
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
 
+    "explorer.compactFolders": false,
     "editor.cursorStyle": "block",
     "editor.rulers": [100, 120],
     "editor.matchBrackets": "near",
@@ -28,6 +28,8 @@
     "scm.diffDecorations": "none",
 
     // Behavior
+    "git.enabled": false,
+
     "files.trimTrailingWhitespace": true,
     "editor.trimAutoWhitespace": false,
 
@@ -56,6 +58,13 @@
     // Project Manager
     "projectManager.vscode.baseFolders": ["E:/Projects", "E:/Projekte"],
     "projectManager.git.baseFolders": ["E:/Dieser PC/Dokumente/GitHub"],
+
+    "powershell.integratedConsole.showOnStartup": false,
+    "powershell.integratedConsole.suppressStartupBanner": true,
+    "powershell.sideBar.CommandExplorerVisibility": false,
+    "task.problemMatchers.neverPrompt": {
+        "shell": true
+    }
 
     // CMake Tools
     //"cmake.autoRestartBuild": true,

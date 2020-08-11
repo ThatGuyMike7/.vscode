@@ -1,7 +1,9 @@
 // Place your key bindings in this file to override the defaults
 [
+    // "F6" to build the project.
     {
-        "key": "shift+f7",
-        "command": "cmake.configure"
+        "key": "f6",
+        "command": "workbench.action.tasks.runTask",
+        "args": "build x64 debug"
     }
 ]
