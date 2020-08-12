@@ -29,22 +29,31 @@
 
     // Behavior
     "git.enabled": false,
+    "task.saveBeforeRun": "always",
+    "workbench.editor.enablePreview": false,
 
     "files.trimTrailingWhitespace": true,
     "editor.trimAutoWhitespace": false,
 
     "editor.insertSpaces": true,
-    "editor.autoIndent": "keep",
+    "editor.tabSize": 4,
+    "editor.autoIndent": "full",
     "editor.detectIndentation": false,
 
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
+    "editor.formatOnType": false,
 
     "editor.wordWrap": "off",
     "editor.folding": false,
     "editor.links": false,
+    "editor.dragAndDrop": false,
     "editor.smoothScrolling": true,
     "editor.mouseWheelZoom": false,
+
+    ///////////////////////////////////////////////////////
+    //                    Extensions                     //
+    ///////////////////////////////////////////////////////
 
     // C/C++
     "C_Cpp.updateChannel": "Insiders",
@@ -64,6 +73,11 @@
     "powershell.sideBar.CommandExplorerVisibility": false,
     "task.problemMatchers.neverPrompt": {
         "shell": true
+    },
+
+    // Material Icon Theme
+    "material-icon-theme.folders.associations": {
+        "intermediate": "dump"
     }
 
     // CMake Tools
