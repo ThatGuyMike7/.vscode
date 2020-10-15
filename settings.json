@@ -1,36 +1,61 @@
 {
     // Core settings
     "git.ignoreMissingGitWarning": true,
+    "git.enabled": false,
     "workbench.list.openMode": "doubleClick",
     "window.zoomLevel": 1,
 
     // Appearance
-    "workbench.colorTheme": "Nord",
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.colorTheme": "Field Lights",
+    "workbench.iconTheme": "field-lights",
+    //"workbench.iconTheme": "material-icon-theme",
+    "editor.semanticHighlighting.enabled": false,
 
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 14,
+    "window.menuBarVisibility": "compact",
+    "breadcrumbs.enabled": false,
+    "window.title": "${rootName}",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+
+    //"editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "Fira Code",
+    //"editor.fontFamily": "Victor Mono",
+    "editor.fontSize": 13,
     "editor.fontLigatures": true,
 
-    "explorer.compactFolders": false,
     "editor.cursorStyle": "block",
-    "editor.rulers": [100, 120],
-    "editor.matchBrackets": "near",
-    "editor.renderLineHighlight": "line",
-    "editor.minimap.enabled": false,
+    "editor.cursorSmoothCaretAnimation": false,
+    "editor.cursorBlinking": "smooth",
+
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
+    "editor.minimap.enabled": false,
+
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "none",
+    "editor.renderIndentGuides": false,
+    "editor.matchBrackets": "near",
     "editor.selectionHighlight": true,
-    "editor.roundedSelection": true,
     "editor.occurrencesHighlight": false,
+
+    "editor.rulers": [100, 120],
+    "explorer.compactFolders": false,
+    "editor.roundedSelection": true,
     "editor.glyphMargin": true,
     "scm.diffDecorations": "none",
 
     // Behavior
-    "git.enabled": false,
     "task.saveBeforeRun": "always",
-    "workbench.editor.enablePreview": false,
+    "files.autoSave": "onFocusChange",
+    "files.saveConflictResolution": "askUser",
+
+    "editor.suggest.insertMode": "insert",
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
 
     "files.trimTrailingWhitespace": true,
     "editor.trimAutoWhitespace": false,
@@ -44,12 +69,21 @@
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
 
+    "workbench.editor.revealIfOpen": true,
+    "search.quickOpen.includeHistory": false,
+    "search.quickOpen.history.filterSortOrder": "default",
+    "search.sortOrder": "fileNames",
+
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.openPositioning": "first",
     "editor.wordWrap": "off",
     "editor.folding": false,
     "editor.links": false,
     "editor.dragAndDrop": false,
-    "editor.smoothScrolling": true,
     "editor.mouseWheelZoom": false,
+
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
 
     ///////////////////////////////////////////////////////
     //                    Extensions                     //
@@ -63,6 +97,7 @@
     "C_Cpp.intelliSenseEngine": "Default",
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.enhancedColorization": "Enabled",
 
     // Project Manager
     "projectManager.vscode.baseFolders": ["E:/Projects", "E:/Projekte"],
@@ -76,9 +111,14 @@
     },
 
     // Material Icon Theme
+    "material-icon-theme.opacity": 0.75,
+    "material-icon-theme.hidesExplorerArrows": true,
     "material-icon-theme.folders.associations": {
         "intermediate": "dump"
-    }
+    },
+
+    // LaTeX Workshop
+    "latex-workshop.view.pdf.viewer": "tab",
 
     // CMake Tools
     //"cmake.autoRestartBuild": true,
