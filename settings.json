@@ -5,22 +5,32 @@
     "workbench.list.openMode": "doubleClick",
     "window.zoomLevel": 1,
 
-    // Appearance
-    "workbench.colorTheme": "Field Lights",
-    "workbench.iconTheme": "field-lights",
+    // Theming
+    //"workbench.colorTheme": "Nord",
+    //"workbench.colorTheme": "Dracula",
+    //"workbench.colorTheme": "Darktooth",
+    //"workbench.colorTheme": "Braver's Solarized Light (themed workbench)",
+    //"workbench.colorTheme": "Braver's Solarized Dark (themed workbench)",
+    //"workbench.colorTheme": "Gruvbox Material Dark",
+    //"workbench.colorTheme": "Field Lights",
+    "workbench.colorTheme": "simple dark",
+    "workbench.iconTheme": "field-lights-minimalistic",
     //"workbench.iconTheme": "material-icon-theme",
+
+    // Appearance
     "editor.semanticHighlighting.enabled": false,
 
+    "window.titleBarStyle": "custom",
     "window.menuBarVisibility": "compact",
     "breadcrumbs.enabled": false,
-    "window.title": "${rootName}",
+    "window.title": "",//"${rootName}",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.tabSizing": "shrink",
 
-    //"editor.fontFamily": "JetBrains Mono",
-    "editor.fontFamily": "Fira Code",
+    //"editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "JetBrains Mono",
     //"editor.fontFamily": "Victor Mono",
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.fontLigatures": true,
 
     "editor.cursorStyle": "block",
@@ -43,6 +53,8 @@
     "editor.roundedSelection": true,
     "editor.glyphMargin": true,
     "scm.diffDecorations": "none",
+
+    "debug.openDebug": "neverOpen",
 
     // Behavior
     "task.saveBeforeRun": "always",
@@ -75,7 +87,7 @@
     "search.sortOrder": "fileNames",
 
     "workbench.editor.enablePreview": false,
-    "workbench.editor.openPositioning": "first",
+    "workbench.editor.openPositioning": "last",
     "editor.wordWrap": "off",
     "editor.folding": false,
     "editor.links": false,
@@ -84,6 +96,14 @@
 
     "editor.smoothScrolling": true,
     "workbench.list.smoothScrolling": true,
+
+    "zenMode.fullScreen": false,
+    "zenMode.restore": true,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideStatusBar": false,
+    "zenMode.silentNotifications": true,
 
     ///////////////////////////////////////////////////////
     //                    Extensions                     //
