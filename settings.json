@@ -1,11 +1,14 @@
 {
     // Core settings
+    "update.enableWindowsBackgroundUpdates": true,
+    "update.mode": "default",
     "git.ignoreMissingGitWarning": true,
     "git.enabled": false,
     "workbench.list.openMode": "doubleClick",
-    "window.zoomLevel": 1,
 
     // Theming
+    //"workbench.colorTheme": "Gruvbox Material Dark",
+    //"workbench.colorTheme": "Darcula",
     //"workbench.colorTheme": "Nord",
     //"workbench.colorTheme": "Dracula",
     //"workbench.colorTheme": "Darktooth",
@@ -13,27 +16,29 @@
     //"workbench.colorTheme": "Braver's Solarized Dark (themed workbench)",
     //"workbench.colorTheme": "Gruvbox Material Dark",
     //"workbench.colorTheme": "Field Lights",
-    "workbench.colorTheme": "simple dark",
-    "workbench.iconTheme": "field-lights-minimalistic",
+    //"workbench.colorTheme": "simple dark",
+
+    "workbench.iconTheme": "field-lights-monochrome",
     //"workbench.iconTheme": "material-icon-theme",
 
     // Appearance
-    "editor.semanticHighlighting.enabled": false,
+    "editor.semanticHighlighting.enabled": true,
 
     "window.titleBarStyle": "custom",
     "window.menuBarVisibility": "compact",
     "breadcrumbs.enabled": false,
-    "window.title": "",//"${rootName}",
+    "window.title": "${rootName}",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.tabSizing": "shrink",
 
+    //"editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "Iosevka SS03",
     //"editor.fontFamily": "Fira Code",
-    "editor.fontFamily": "JetBrains Mono",
     //"editor.fontFamily": "Victor Mono",
     "editor.fontSize": 14,
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": false,
 
-    "editor.cursorStyle": "block",
+    "editor.cursorStyle": "line",
     "editor.cursorSmoothCaretAnimation": false,
     "editor.cursorBlinking": "smooth",
 
@@ -48,7 +53,7 @@
     "editor.selectionHighlight": true,
     "editor.occurrencesHighlight": false,
 
-    "editor.rulers": [100, 120],
+    //"editor.rulers": [100],
     "explorer.compactFolders": false,
     "editor.roundedSelection": true,
     "editor.glyphMargin": true,
@@ -58,7 +63,7 @@
 
     // Behavior
     "task.saveBeforeRun": "always",
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "off",
     "files.saveConflictResolution": "askUser",
 
     "editor.suggest.insertMode": "insert",
@@ -94,8 +99,8 @@
     "editor.dragAndDrop": false,
     "editor.mouseWheelZoom": false,
 
-    "editor.smoothScrolling": true,
-    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": false,
+    "workbench.list.smoothScrolling": false,
 
     "zenMode.fullScreen": false,
     "zenMode.restore": true,
@@ -105,19 +110,26 @@
     "zenMode.hideStatusBar": false,
     "zenMode.silentNotifications": true,
 
+    "explorer.autoReveal": false,
+
     ///////////////////////////////////////////////////////
     //                    Extensions                     //
     ///////////////////////////////////////////////////////
 
     // C/C++
-    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.updateChannel": "Default",
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.cStandard": "c11",
     "C_Cpp.default.intelliSenseMode": "msvc-x64",
     "C_Cpp.intelliSenseEngine": "Default",
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.intelliSenseUpdateDelay": 1000,
     "C_Cpp.errorSquiggles": "Enabled",
     "C_Cpp.enhancedColorization": "Enabled",
+    "C_Cpp.formatting": "Disabled",
+
+    // C#
+    "csharp.referencesCodeLens.enabled": false,
 
     // Project Manager
     "projectManager.vscode.baseFolders": ["E:/Projects", "E:/Projekte"],
@@ -143,4 +155,9 @@
     // CMake Tools
     //"cmake.autoRestartBuild": true,
     //"cmake.configureOnOpen": true,
+
+    // Random stuff (possibly appended by VSCode)
+    "window.zoomLevel": 1,
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.enabled": false,
 }
