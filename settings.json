@@ -8,10 +8,10 @@
 
     // Theming
     //"workbench.colorTheme": "GitHub Dark",
-    //"workbench.colorTheme": "Eva Dark Bold",
+    "workbench.colorTheme": "Eva Dark Bold",
     //"workbench.colorTheme": "Night Owl (No Italics)",
     //"workbench.colorTheme": "Darcula",
-    "workbench.colorTheme": "Default Dark+",
+    //"workbench.colorTheme": "Default Dark+",
 
     //"workbench.iconTheme": "field-lights-monochrome",
     //"workbench.iconTheme": "material-icon-theme",
@@ -27,6 +27,7 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.tabSizing": "shrink",
 
+    //"editor.fontFamily": "Cousine",
     "editor.fontFamily": "Cascadia Code",
     //"editor.fontFamily": "IBM Plex Mono",
     //"editor.fontFamily": "Iosevka SS03",
@@ -96,7 +97,7 @@
     "editor.dragAndDrop": false,
     "editor.mouseWheelZoom": false,
 
-    "editor.smoothScrolling": false,
+    "editor.smoothScrolling": true,
     "workbench.list.smoothScrolling": false,
 
     "zenMode.fullScreen": false,
@@ -115,8 +116,10 @@
 
     // C/C++
     "C_Cpp.default.cppStandard": "c++20",
-    "C_Cpp.default.cStandard": "c11",
-    "C_Cpp.default.intelliSenseMode": "msvc-x64",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.compilerPath": "E:/Programme/LLVM/bin/clang.exe",
+    "C_Cpp.default.intelliSenseMode": "clang-x64",
+    //"C_Cpp.default.intelliSenseMode": "msvc-x64",
     "C_Cpp.intelliSenseEngine": "Default",
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "C_Cpp.intelliSenseUpdateDelay": 500,
