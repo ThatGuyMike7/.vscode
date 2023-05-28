@@ -8,10 +8,11 @@
 
     // Theming
     //"workbench.colorTheme": "GitHub Dark",
-    "workbench.colorTheme": "Eva Dark Bold",
+    //"workbench.colorTheme": "Eva Dark Bold",
     //"workbench.colorTheme": "Night Owl (No Italics)",
     //"workbench.colorTheme": "Darcula",
-    //"workbench.colorTheme": "Default Dark+",
+    //"workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Default Dark+",
 
     //"workbench.iconTheme": "field-lights-monochrome",
     //"workbench.iconTheme": "material-icon-theme",
@@ -145,6 +146,10 @@
         "editor.formatOnType": false,
         "editor.formatOnSave": false
     },
+
+    // GLSL Lint
+    "glsllint.glslangValidatorPath": "E:/Programme/glslang/bin/glslangValidator.exe",
+    "glsllint.glslifyUseCurrentFileAsBasedir": true,
 
     // Project Manager
     "projectManager.vscode.baseFolders": ["E:/Projects", "E:/Projekte"],
