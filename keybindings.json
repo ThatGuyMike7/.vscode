@@ -4,18 +4,18 @@
     {
         "key": "f6",
         "command": "workbench.action.tasks.runTask",
-        "args": "build x64 debug"
+        "args": ""
     },
 
     // Disable fullscreen toggle.
     { "key": "f11", "command": "" },
 
     // Disable zoom key bindings.
-    { "key": "ctrl+numpad_add",       "command": "" },
-    { "key": "ctrl+shift+oem_plus",   "command": "" },
-    { "key": "ctrl+oem_plus",         "command": "" },
-    { "key": "ctrl+numpad_subtract",  "command": "" },
-    { "key": "ctrl+shift+oem_minus",  "command": "" },
-    { "key": "ctrl+oem_minus",        "command": "" },
-    { "key": "ctrl+numpad0",          "command": "" }
+    { "key": "ctrl+numpad_add", "command": "" },
+    { "key": "ctrl+shift+oem_plus", "command": "" },
+    { "key": "ctrl+oem_plus", "command": "" },
+    { "key": "ctrl+numpad_subtract", "command": "" },
+    { "key": "ctrl+shift+oem_minus", "command": "" },
+    { "key": "ctrl+oem_minus", "command": "" },
+    { "key": "ctrl+numpad0", "command": "" }
 ]

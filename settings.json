@@ -12,7 +12,7 @@
     //"workbench.colorTheme": "Night Owl (No Italics)",
     //"workbench.colorTheme": "Darcula",
     //"workbench.colorTheme": "Dracula Soft",
-    "workbench.colorTheme": "Default Dark+",
+    //"workbench.colorTheme": "Default Dark Modern",
 
     //"workbench.iconTheme": "field-lights-monochrome",
     //"workbench.iconTheme": "material-icon-theme",
@@ -34,11 +34,11 @@
     //"editor.fontFamily": "Iosevka SS03",
     //"editor.fontFamily": "Hack",
     //"editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 14,
+    "editor.fontSize": 13,
     "editor.fontLigatures": true,
 
     "editor.cursorStyle": "line",
-    "editor.cursorSmoothCaretAnimation": false,
+    "editor.cursorSmoothCaretAnimation": "off",
     "editor.cursorBlinking": "smooth",
 
     "editor.overviewRulerBorder": false,
@@ -118,22 +118,28 @@
     // C/C++
     "C_Cpp.default.cppStandard": "c++20",
     "C_Cpp.default.cStandard": "c17",
-    "C_Cpp.default.compilerPath": "E:/Programme/LLVM/bin/clang.exe",
-    "C_Cpp.default.intelliSenseMode": "clang-x64",
+    //"C_Cpp.default.compilerPath": "E:/Programme/LLVM/bin/clang.exe",
+    //"C_Cpp.default.intelliSenseMode": "clang-x64",
     //"C_Cpp.default.intelliSenseMode": "msvc-x64",
-    "C_Cpp.intelliSenseEngine": "Default",
-    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.intelliSenseEngineFallback": "enabled",
     "C_Cpp.intelliSenseUpdateDelay": 500,
-    "C_Cpp.errorSquiggles": "Enabled",
-    "C_Cpp.enhancedColorization": "Enabled",
-    "C_Cpp.formatting": "Disabled",
-
-    // C#
-    "csharp.referencesCodeLens.enabled": false,
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.enhancedColorization": "enabled",
+    "C_Cpp.formatting": "disabled",
+    "C_Cpp.references.maxCachedProcesses": null,
     "csharp.format.enable": true,
+
+    // C/C++ Runner
+    "C_Cpp_Runner.cppCompilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build/vcvarsall.bat",
+    "C_Cpp_Runner.useMsvc": true,
+    "C_Cpp_Runner.cppStandard": "c++20",
 
     // JSON
     "json.format.enable": false,
+
+    // Prettier
+    "prettier.tabWidth": 4,
 
     // TeX / LaTeX
     "[tex]": {
@@ -152,8 +158,8 @@
     "glsllint.glslifyUseCurrentFileAsBasedir": true,
 
     // Project Manager
-    "projectManager.vscode.baseFolders": ["E:/Projects", "E:/Projekte"],
-    "projectManager.git.baseFolders": ["E:/Dieser PC/Dokumente/GitHub"],
+    //"projectManager.vscode.baseFolders": ["E:/Projects", "E:/Projekte"],
+    //"projectManager.git.baseFolders": ["E:/Dieser PC/Dokumente/GitHub"],
 
     "powershell.integratedConsole.showOnStartup": false,
     "powershell.integratedConsole.suppressStartupBanner": true,
@@ -177,4 +183,8 @@
     "security.workspace.trust.enabled": false,
     "window.zoomLevel": 1,
     "window.menuBarVisibility": "compact",
+    "vsicons.dontShowNewVersionMessage": true,
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    "task.allowAutomaticTasks": "on",
+    "calva.paredit.defaultKeyMap": "strict"
 }
