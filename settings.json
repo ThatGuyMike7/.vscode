@@ -7,16 +7,21 @@
     "workbench.list.openMode": "doubleClick",
 
     // Theming
-    //"workbench.colorTheme": "GitHub Dark",
+    //"workbench.colorTheme": "GitHub Dark Dimmed",
+    //"workbench.colorTheme": "Dracula",
     //"workbench.colorTheme": "Eva Dark Bold",
+    //"workbench.colorTheme": "GitHub Light Default",
     //"workbench.colorTheme": "Night Owl (No Italics)",
     //"workbench.colorTheme": "Darcula",
     //"workbench.colorTheme": "Dracula Soft",
     //"workbench.colorTheme": "Default Dark Modern",
+    //"workbench.colorTheme": "Default Light Modern",
+    //"workbench.colorTheme": "Gruvbox Light Hard",
+    "workbench.colorTheme": "Gruvbox Dark Soft",
 
     //"workbench.iconTheme": "field-lights-monochrome",
-    //"workbench.iconTheme": "material-icon-theme",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    //"workbench.iconTheme": "vscode-icons",
 
     // Appearance
     "editor.semanticHighlighting.enabled": true,
@@ -28,29 +33,29 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.tabSizing": "shrink",
 
+    //"editor.fontFamily": "Cascadia Code",
     //"editor.fontFamily": "Cousine",
-    "editor.fontFamily": "Cascadia Code",
     //"editor.fontFamily": "IBM Plex Mono",
     //"editor.fontFamily": "Iosevka SS03",
     //"editor.fontFamily": "Hack",
-    //"editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 13,
     "editor.fontLigatures": true,
 
     "editor.cursorStyle": "line",
     "editor.cursorSmoothCaretAnimation": "off",
-    "editor.cursorBlinking": "smooth",
+    "editor.cursorBlinking": "phase",
 
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.minimap.enabled": false,
 
     "editor.renderWhitespace": "none",
-    "editor.renderLineHighlight": "none",
+    "editor.renderLineHighlight": "line",
     "editor.guides.indentation": true,
     "editor.matchBrackets": "near",
     "editor.selectionHighlight": true,
-    "editor.occurrencesHighlight": false,
+    "editor.occurrencesHighlight": true,
 
     //"editor.rulers": [100],
     "explorer.compactFolders": false,
@@ -98,7 +103,7 @@
     "editor.dragAndDrop": false,
     "editor.mouseWheelZoom": false,
 
-    "editor.smoothScrolling": true,
+    "editor.smoothScrolling": false,
     "workbench.list.smoothScrolling": false,
 
     "zenMode.fullScreen": false,
@@ -185,6 +190,5 @@
     "window.menuBarVisibility": "compact",
     "vsicons.dontShowNewVersionMessage": true,
     "dotnet.codeLens.enableReferencesCodeLens": false,
-    "task.allowAutomaticTasks": "on",
-    "calva.paredit.defaultKeyMap": "strict"
+    "task.allowAutomaticTasks": "on"
 }
